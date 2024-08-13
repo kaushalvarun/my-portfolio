@@ -8,8 +8,9 @@ import Skills from './pages/Skills';
 import './styles.css';
 
 function App() {
+  const basename = process.env.NODE_ENV === 'production' ? '/my-portfolio' : '';
   return (
-    <Router>
+    <Router basename={basename}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
