@@ -13,7 +13,7 @@ function Experience() {
                 {/* Col 1 */}
                 <div className="column">
                     <JobTile
-                        logo='/images/acmvit_logo.jpeg'
+                        logo={`${process.env.PUBLIC_URL}/images/acmvit_logo.jpeg`}
                         title="Core Committee Member"
                         company="ACM-VIT Chapter"
                         dateRange="January 2020 - Present"
@@ -25,7 +25,7 @@ function Experience() {
                         ]}
                     />
                     <JobTile
-                        logo='/images/Iris.jpeg'
+                        logo={`${process.env.PUBLIC_URL}/images/Iris.jpeg`}
                         title="National Finalist 2019"
                         company="IRIS National Fair"
                         dateRange="August 2019 - January 2020"
@@ -40,7 +40,7 @@ function Experience() {
                 {/* Col 2 */}
                 <div className="column">
                     <JobTile
-                        logo='/images/Iris.jpeg'
+                        logo={`${process.env.PUBLIC_URL}/images/Iris.jpeg`}
                         title="National Finalist 2018"
                         company="IRIS National Fair"
                         dateRange="August 2018 - January 2019"

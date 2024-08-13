@@ -17,14 +17,14 @@ function Education() {
       <section className="main-content">
         <div className="column">
           <EducationTile
-            logo= "/images/VIT_logo.jpeg"
+            logo= {`${process.env.PUBLIC_URL}/images/VIT_logo.jpeg`}
             title="BTech in Computer Science Engineering"
             institution="Vellore Institute of Technology, Vellore"
             cgpa="9.01"
             coursework={courseworkVIT}
           />
    <EducationTile
-            logo="/images/ais.jpeg"
+            logo={`${process.env.PUBLIC_URL}/images/ais.jpeg`}
             title="High School"
             institution="Amity International School, Noida"
             results={[

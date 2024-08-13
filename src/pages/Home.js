@@ -24,7 +24,7 @@ function Home() {
       </div>
 
       <div className="right-half">
-      <img src="/images/VKphoto.jpeg" alt="Varun Kaushal" class="responsive-image" />
+      <img src={`${process.env.PUBLIC_URL}/images/Vkphoto.jpeg`} alt="Varun Kaushal" class="responsive-image" />
         <p className="contact-info">
           <FontAwesomeIcon icon={faEnvelope} />
           <a href="mailto:kaushalvarunkv@gmail.com" style={{ color: '#ffffff', textDecoration: 'none' }}> kaushalvarunkv@gmail.com</a>
