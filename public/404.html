@@ -6,10 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Page Not Found</title>
   <script type="text/javascript">
-    // Redirecting all 404 paths to index.html
-    var pathname = window.location.pathname;
-    var redirectTo = "/my-portfolio" + pathname;
-    window.location.replace(redirectTo);
+    (function() {
+      var pathname = window.location.pathname;
+      var basePath = "/my-portfolio";
+
+      if (pathname === basePath || pathname === basePath + "/") {
+        window.location.replace(basePath + "/");
+      } else if (pathname.startsWith(basePath)) {
+        window.location.replace(pathname);
+      } else {
+        window.location.replace(basePath + pathname);
+      }
+    })();
   </script>
 </head>
 <body>
