@@ -1,7 +1,7 @@
 # My Portfolio
 
-Welcome to my personal portfolio repository!
-Checkout live site here: https://kaushalvarun.github.io/my-portfolio/
+Welcome to my personal portfolio repository!  
+**Checkout live site here: https://kaushalvarun.github.io/my-portfolio/**    
 This project showcases my academic journey, work experiences, and skills through a multi-page responsive website designed using ReactJS, HTML5 and CSS3.
 
 ## Pages
