@@ -17,8 +17,11 @@ function Home() {
           I serve as a Senior Core Committee member of ACM, a leading coding club at my university, where we organize various competitions and events.
         </p>
         <p className="body-text">
-        I am a passionate app developer and competitive coder,
-        i enjoy developing apps and have created a chatting application and a food delivery app, with many more projects in the works.
+        I am passionate about software development, with a special interest in app development and competitive coding.
+        I dabble in other technologies as well such as Web Development, Machine Learning, etc.
+        I enjoy developing apps and have created a chatting application and a food delivery app, with many more projects in the works.
+        </p>
+        <p className="body-text">
         Additionally, I have a strong interest in cloud computing and its emerging technologies, and have earned certifications in AWS Cloud Practitioner and Microsoft Azure AI Fundamentals.
         </p>
       </div>
