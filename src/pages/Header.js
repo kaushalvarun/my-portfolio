@@ -6,10 +6,11 @@ function Header() {
     <header>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/education">Education</Link></li>
-          <li><Link to="/experience">Experience</Link></li>
-          <li><Link to="/skills">Skills</Link></li>
+          <li><Link to="/"><strong>Home</strong></Link></li>
+          <li><Link to="/education"><strong>Education</strong></Link></li>
+          <li><Link to="/experience"><strong>Experience</strong></Link></li>
+          <li><Link to="/certifications"><strong>Certifications</strong></Link></li>
+          <li><Link to="/skills"><strong>Skills</strong></Link></li>
         </ul>
       </nav>
     </header>
