@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React, { useEffect } from 'react';
 import JobTile from '../components/JobTile.js';
 
 function Experience() {
@@ -13,17 +13,37 @@ function Experience() {
                 {/* Col 1 */}
                 <div className="column">
                     <JobTile
+                        logo={`${process.env.PUBLIC_URL}/images/copperbell.jpeg`}
+                        title="Intern"
+                        company="Copperbell Tech Solutions"
+                        dateRange="May 2024 - July 2024"
+                        location="Noida, Uttar Pradesh"
+                        responsibilities={[
+                            "Developed BuzzChat, a cross-platform communication engine app.",
+                            "Designed for B2C customers to facilitate communication using real-time one-to-one messaging, group chats, with the ability to send attachments and access additional content within chats.",
+                            "Collaborated with QA and designers to ensure seamless integration and user experience.",
+                            <span key="link">
+                                A public release with partial code and complete app screenshots is available here: <a href="https://github.com/kaushalvarun/Buzzchat-Public" target="_blank" rel="noopener noreferrer">BuzzChat</a>
+                            </span>,
+                        ]}
+                    />
+
+                    <JobTile
                         logo={`${process.env.PUBLIC_URL}/images/acmvit_logo.jpeg`}
-                        title="Core Committee Member"
+                        title="Senior Core Committee Member"
                         company="ACM-VIT Chapter"
-                        dateRange="January 2020 - Present"
+                        dateRange="May 2023 - Present"
                         location="Vellore, Tamil Nadu, India"
                         responsibilities={[
+                            "Part of Competitive Coding Domain at ACM",
                             "Assisted in crafting problem statements for competitive coding events, contributing to the development of challenging and engaging challenges.",
                             "Attended workshops and coding sessions, developing initial problem-solving skills.",
                             "Engaged in team-based coding projects, fostering collaborative learning environments."
                         ]}
                     />
+                        </div>
+                        {/* Col 2 */}
+                        <div className="column">
                     <JobTile
                         logo={`${process.env.PUBLIC_URL}/images/Iris.jpeg`}
                         title="National Finalist 2019"
@@ -35,10 +55,7 @@ function Experience() {
                             'Designed and implemented "Smart Streams" project utilizing AI Multiclass Decision Forest model on Microsoft Azure to aid class 11-12 students in stream selection.',
                         ]}
                     />
-                </div>
 
-                {/* Col 2 */}
-                <div className="column">
                     <JobTile
                         logo={`${process.env.PUBLIC_URL}/images/Iris.jpeg`}
                         title="National Finalist 2018"

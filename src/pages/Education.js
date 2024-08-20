@@ -28,7 +28,7 @@ function Education() {
             title="High School"
             institution="Amity International School, Noida"
             results={[
-              { label: 'CBSE 10th Board', courses: '96 %' },
+              { label: 'CBSE 10th Board', courses: '96.0 %' },
               { label: 'CBSE 12th Board', courses: '93.4 %' }
             ]}
           />
