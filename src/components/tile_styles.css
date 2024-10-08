@@ -12,7 +12,7 @@
 }
 
 .tile img {
-    width: 100px; 
+    width: 75px; 
     height: auto;
     object-fit: contain;
     margin-right: 1.5em;
