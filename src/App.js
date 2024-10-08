@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Education from './pages/Education';
 import Experience from './pages/Experience';
 import Skills from './pages/Skills';
-import './styles.css';
+import './navbar.css';
 import Certifications from './pages/Certification';
 
 function App() {

@@ -1,8 +1,9 @@
 import React from 'react';
+import './tile_styles.css';
 
 function JobTile({ logo, title, company, dateRange, location, responsibilities }) {
   return (
-    <div className="job-tile">
+    <div className="tile">
       <div className="logo-container">
         <img src={logo} alt={`${company} Logo`} />
       </div>

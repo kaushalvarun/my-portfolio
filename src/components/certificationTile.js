@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './tile_styles.css';
 function CertificationTile({ logo, title, company, issueDate, credentialLink, description }) {
     return (
-        <div className="certification-tile">
+        <div className="tile">
             <div className="logo-container">
                 <img src={logo} alt={`${company} Logo`} />
             </div>

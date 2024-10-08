@@ -1,11 +1,9 @@
 import React from 'react';
-
+import './tile_styles.css';
 function EducationTile({ logo, title, institution, cgpa, coursework, results }) {
   return (
     <div className="education-tile">
-      <div className="logo-container">
         <img src={logo} alt={`${institution} Logo`} />
-      </div>
       <div className="right-half">
         <p><strong>{title}</strong></p>
         <p>{institution}</p>

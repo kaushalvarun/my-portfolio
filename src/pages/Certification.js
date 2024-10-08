@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import CertificationTile from '../components/certificationTile.js';
+import CertificationTile from '../components/CertificationTile.js';
+import './styles.css';
 
 function Certifications() {
     useEffect(() => {
@@ -9,7 +10,7 @@ function Certifications() {
     return (
         <div>
             <h1 className='heading'>Certifications</h1>
-            <section className="certifications-container">           
+            <section className="tile-container">           
                     <CertificationTile
                         logo={`${process.env.PUBLIC_URL}/images/aws_logo.jpeg`}
                         title="AWS Cloud Practitioner"

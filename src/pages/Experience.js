@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import JobTile from '../components/JobTile.js';
+import './styles.css';
 
 function Experience() {
     useEffect(() => {
@@ -9,21 +10,17 @@ function Experience() {
     return (
         <div>
             <h1 className='heading'>Experience</h1>
-            <section className="main-content">
-                {/* Col 1 */}
-                <div className="column">
+            <section className="tile-container">           
                     <JobTile
                         logo={`${process.env.PUBLIC_URL}/images/copperbell.jpeg`}
-                        title="Intern"
+                        title="Project Intern"
                         company="Copperbell Tech Solutions"
                         dateRange="May 2024 - July 2024"
                         location="Noida, Uttar Pradesh"
                         responsibilities={[
-                            "Developed BuzzChat, a cross-platform communication engine app.",
-                            "Designed for B2C customers to facilitate communication using real-time one-to-one messaging, group chats, with the ability to send attachments and access additional content within chats.",
-                            "Collaborated with QA and designers to ensure seamless integration and user experience.",
+                            "Developed key features for BuzzChat, a communication engine for the Finnkosha team, including the authentication screen, Flutter UI, group chats, and one-on-one messaging, enhancing real-time communication capabilities for B2C customers.",
                             <span key="link">
-                                A public release with partial code and complete app screenshots is available here: <a href="https://github.com/kaushalvarun/Buzzchat-Public" target="_blank" rel="noopener noreferrer">BuzzChat</a>
+                                Partial recreation of my contributions to BuzzChat on GitHub with permission from Copperbell. <a href="https://github.com/kaushalvarun/Buzzchat-Public" target="_blank" rel="noopener noreferrer">BuzzChat</a>
                             </span>,
                         ]}
                     />
@@ -41,9 +38,7 @@ function Experience() {
                             "Engaged in team-based coding projects, fostering collaborative learning environments."
                         ]}
                     />
-                        </div>
-                        {/* Col 2 */}
-                        <div className="column">
+
                     <JobTile
                         logo={`${process.env.PUBLIC_URL}/images/Iris.jpeg`}
                         title="National Finalist 2019"
@@ -67,7 +62,6 @@ function Experience() {
                             'Presented the project nationally, showcasing its innovative use of Cloud Computing and Amazon Web Services to streamline record-keeping, significantly reducing paperwork.',
                         ]}
                     />
-                </div>
             </section>
         </div>
     );

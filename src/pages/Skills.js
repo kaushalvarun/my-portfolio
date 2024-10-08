@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import SkillSection from '../components/SkillSection';
 import 'devicon/devicon.min.css';
+import './styles.css';
 
 function Skills() {
     useEffect(() => {
