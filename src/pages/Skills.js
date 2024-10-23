@@ -44,7 +44,7 @@ function Skills() {
             <h1 className='heading'>Skills</h1>
             <div className="skill-section-grid">
                 <SkillSection
-                    title="Programming Languages"
+                    title="Programming"
                     skills={programmingLanguages}
                     description="Programming languages I use for software development."
                 />
