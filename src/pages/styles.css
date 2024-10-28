@@ -31,15 +31,15 @@ body {
 }
 
 .left-half {
-    width: 48%;
+    width: 50%;
 }
 
 .right-half {
-    width: 48%;
+    width: 45%;
 }
 
-
 .main-content {
+    max-width: 80vw;
     display: flex;
     justify-content: space-between;
     padding: 2em;
