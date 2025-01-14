@@ -20,7 +20,7 @@ function Education() {
             logo= {`${process.env.PUBLIC_URL}/images/VIT_logo.jpeg`}
             title="BTech in Computer Science Engineering"
             institution="Vellore Institute of Technology, Vellore"
-            cgpa="9.01"
+            cgpa="9.06"
             coursework={courseworkVIT}
           />
    <EducationTile

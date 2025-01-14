@@ -10,19 +10,16 @@ function Home() {
   return (
     <section className="main-content">
       <div className="left-half">
-        <h3 style={{ margin: '0' }}>Hi, I'm</h3>
+        <h2 style={{ margin: '0' }}>Hi, I'm</h2>
         <h1 className="main-heading" style={{ marginTop: '10px', paddingTop: '10px' }}>Varun Kaushal</h1>
         <p className="body-text">
-          I am currently in my third year of pursuing a BTech in Computer Science and Engineering from VIT University, Vellore.
-          I serve as a Senior Core Committee member of ACM, a leading coding club at my university, where we organize various competitions and events.
+        I'm currently in my third year of BTech in Computer Science and Engineering at VIT University, Vellore. 
         </p>
         <p className="body-text">
-        I am passionate about software development, with a special interest in app development and competitive coding.
-        I dabble in other technologies as well such as Web Development, Machine Learning, etc.
-        I enjoy developing apps and have created a chatting application and a food delivery app, with many more projects in the works.
+        When it comes to tech, I'm super passionate about software development, especially app development and competitive coding. I also love exploring other fields like Web Development and Machine Learning whenever I get the chance. So far, I've developed a chatting app and a food delivery app, and I've got plenty more ideas in the pipeline!
         </p>
         <p className="body-text">
-        Additionally, I have a strong interest in cloud computing and its emerging technologies, and have earned certifications in AWS Cloud Practitioner and Microsoft Azure AI Fundamentals.
+        I'm a big believer in cloud computing, with certifications like AWS Cloud Practitioner and Microsoft Azure AI Fundamentals to back it up!
         </p>
       </div>
 
