@@ -19,6 +19,7 @@ function Skills() {
         { icon: 'devicon-flutter-plain', name: 'Flutter' },
         { icon: 'devicon-dart-plain', name: 'Dart' },
         { icon: 'devicon-firebase-plain', name: 'Firebase' },
+        { icon: 'devicon-xcode-plain', name: 'XCode' },
     ];
 
     const webDevelopment = [
@@ -31,7 +32,6 @@ function Skills() {
     const versionControl = [
         { icon: 'devicon-git-plain-wordmark', name: 'Git' },
         { icon: 'devicon-github-original', name: 'GitHub', style: { color: '#A078F7' } },
-        { icon: 'devicon-vscode-plain colored', name: 'Visual Studio Code' }
     ];
 
     const cloudComputing = [
@@ -46,27 +46,22 @@ function Skills() {
                 <SkillSection
                     title="Programming"
                     skills={programmingLanguages}
-                    description="Programming languages I use for software development."
                 />
                 <SkillSection
                     title="Mobile Development"
                     skills={mobileDevelopment}
-                    description="My preferred technologies for mobile app development."
                 />
                 <SkillSection
                     title="Web Development"
                     skills={webDevelopment}
-                    description="Technologies I use for front-end web development."
                 />
                 <SkillSection
                     title="Version Control"
                     skills={versionControl}
-                    description="Tools I use for version control and code management."
                 />
                 <SkillSection
                     title="Cloud Computing"
                     skills={cloudComputing}
-                    description="Cloud platforms and services I am familiar with."
                 />
             </div>
         </div>

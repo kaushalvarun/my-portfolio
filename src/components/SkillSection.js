@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../pages/styles.css';
 function SkillSection({ title, skills, description }) {
   return (
     <div className="tech">
