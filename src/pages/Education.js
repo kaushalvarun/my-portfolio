@@ -8,7 +8,8 @@ function Education() {
 
   const courseworkVIT = [
     { label: 'Programming & Algorithms', courses: 'Data Structures and Algorithms, Structured and Object-Oriented Programming, Python, Java, C/C++' },
-    { label: 'Systems & Architecture', courses: 'Computer Architecture and Organisation, Computer Networks, Database Management Systems, Web Programming' }
+    { label: 'Systems & Architecture', courses: 'Computer Architecture and Organisation, Computer Networks, Database Management Systems, Web Programming' },
+    { label: 'AI/ML', courses: 'Artificial Intelligence, Foundations of Data Science' }
   ];
 
   return (
