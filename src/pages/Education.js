@@ -19,9 +19,9 @@ function Education() {
         <div className="column">
           <EducationTile
             logo= {`${process.env.PUBLIC_URL}/images/VIT_logo.jpeg`}
-            title="BTech in Computer Science Engineering"
+            title="B.Tech in Computer Science Engineering"
             institution="Vellore Institute of Technology, Vellore"
-            cgpa="9.09"
+            cgpa="9.12"
             coursework={courseworkVIT}
           />
    <EducationTile
