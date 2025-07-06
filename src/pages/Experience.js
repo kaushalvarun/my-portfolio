@@ -12,6 +12,19 @@ function Experience() {
             <h1 className='heading'>Experience</h1>
             <section className="tile-container">           
                     <JobTile
+                        logo={`${process.env.PUBLIC_URL}/images/fiserv.jpeg`}
+                        title="Technology Summer Intern"
+                        company="Fiserv."
+                        dateRange="May 2025 - July 2025"
+                        location="Pune, Maharashtra"
+                        responsibilities={[
+                            "Achieved reduction of Biller data lookup time from hours to nearly 2 minutes -> quicker access to operational insights for client facing CSMs, sales, support, and leadership teams.",
+                            "Developed an internal dashboard to unify biller-specific data—such as supported payment channels, methods, and product features enabled for biller, incorporating inputs from senior leadership in India and USA. - VPs, Business Heads",
+                            "Built an automated SQL script review tool in C# to detect 5+ common DB risk patterns (e.g., missing schema elements, locking-prone joins), reducing manual reviews by ~40%."
+                        ]}
+                    />
+
+                    <JobTile
                         logo={`${process.env.PUBLIC_URL}/images/copperbell.jpeg`}
                         title="Project Intern"
                         company="Copperbell Tech Solutions"
